@@ -90,6 +90,9 @@ name of the RubyGem to install) and discards the rest. Since this is
 passed into the `gem` command, it shouldn't silently drop additional
 arguments.
 
+The `create` plugin uses a heredoc for the scaffolding. This should
+probably be an erb template instead.
+
 ## License and Author
 
 - Author: Joshua Timberman (<joshua@getchef.com>)
